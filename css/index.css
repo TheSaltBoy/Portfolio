@@ -1,71 +1,190 @@
 * {
-	background-color: dimgrey;
-	color: white;
+    margin: 0;
+    padding: 0;
 }
 
-.about-me {
-	margin-top: 100px;
-	padding-top: 10px;
-	width: 60%;
-	height: 100%;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+	background-image: url(images/bg2.png);
+    background-position: top;
+    background-size: contain;
+	font-size: 1.2em;
+}
+
+.navigation{
+    text-align: center;
+}
+
+.navigation>img {
+	margin-bottom: 50px;
+}
+
+div#container {
+    margin: 50px;
+    padding: 50px;
+}
+
+.about {
+    display: grid;
+	grid-template-columns: 80% 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 100px;
+}
+
+.about>img {
+	max-height: 300px;
 }
 
 .portfolio {
-	padding-top: 30px;
+	margin-left: -100px;
+	margin-right: -100px;
+	padding: 50px;
+	background-color: 
 }
 
-.minor {
-	margin-top: 30px;
+.banner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px;
+	grid-column-gap: 10px;
+	margin-bottom: 10px;
 }
 
-.banner, .square {
-	height: 90px;
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 150px 150px;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
 }
 
-.square {
-	width: 90px;
+.contact {
+	margin-left: -100px;
+	margin-right: -100px;
+	margin-bottom: -100px;
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
-.major {
+ul, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
 }
 
-.minor {
+li {
+    display: inline;
 }
 
-.fa {
-	padding: 20px;
-	font-size: 50px;
+.portfolio, .contact {
+    background-color: db4b7b;
+}
+
+.banner-left {
+	background-image: url(images/projects/Cockatiels.png);
+	background-position: center;
+	background-size: cover;
+}
+.banner-right {
+	background-image: url(images/projects/Alien_city.png);
+	background-position: center;
+	background-size: cover;
+}
+.projecta {
+	background-image: url(images/projects/Cockatiels.png);
+	background-position: center;
+	background-size: cover;
+}
+.projectb {
+	background-image: url(images/projects/Alien_city.png);
+	background-position: center;
+	background-size: cover;
+}
+.projectc {
+	background-image: url(images/projects/arin.png);
+	background-position: center;
+	background-size: cover;
+}
+.projectd {
+	background-image: url(images/projects/Link.png);
+	background-position: center;
+	background-size: cover;
+}
+.projecte {
+	background-image: url(images/projects/Barioth_monster.png);
+	background-position: center;
+	background-size: cover;
+}
+.projectf {
+	background-image: url(images/projects/Doushio.png);
+	background-position: center;
+	background-size: cover;
+}
+.projectg {
+	background-image: url(images/projects/streetwear1.png);
+	background-position: center;
+	background-size: cover;
+}
+.projecth {
+	background-image: url(images/projects/teostra.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.round {
+	position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  transition: .5s ease;
+  background-color: 1a1a1a;
+}
+
+.round:hover .overlay {
+  opacity: 0;
+}
+
+.pad {
+	line-height: 200px;
+	padding: 10px;
 	text-align: center;
-	text-decoration: none;
-	margin: 5px 2px;
-	border-radius: 50%;
+	vertical-align: middle;
 }
 
-.fa:hover {
-    opacity: 0.7;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-.fa-twitter {
-	background: #55ACEE;
-    color: white; 
+input[type=submit] {
+    background-color: #4ac5d3;
+    color: white;;
+    padding: 12px 20px;
+    border: none;
+    border-radius: .4em;
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
-}
-
-.fa-dribbble {
-  background: #ea4c89;
-  color: white;
-}
-
-.fa-tumblr {
-  background: #2c4762;
-  color: white;
+.email-form {
+    padding: 10px;
 }

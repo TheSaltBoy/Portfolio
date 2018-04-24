@@ -1,68 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
     
-<head>
-    <meta charset="utf-8" />
-    <title>Glen Nelson aka The Salt Boy</title>
-    <link href="css/index.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-    
-<body>
-	<main>
-		
-			<div class="container about-me">
-				<div class="logo"></div>
-				<div class="summary">
-					<h2>Hi! My name is Glen Nelson.</h2>
-					<p>I'm a budding illustrator and web designer from Ireland. I've got a passion for creating beautiful things, wether you need an awesome website for your brand or just want your D&D character brought to life.</p>
-					<p>I like to tell stories. A website isn't just a wbsite, no more than a drawing is just ink on paper. If you're not telling a story, then what's the point?</p>
-					<p>Let me help you tell your story...</p>
+    <body>
+    <div id="container">
+        
+        <div class="navigation">
+            <img src="css/images/monogram_white.png" height="60px"></img>
+        </div>
+        
+        <div class="about" id="about">
+            <div class="about-text">
+            <h1>Hi! I'm Glen Nelson.</h1>
+				<br>
+                <p>I'm an illustrator, web designer, and Dungeon Master from Dallas, Texas, but based in Ireland. I've got a passion for creating nerdy things, wether you need an awesome website or just want your D&D character brought to life.</p>
+				<br>
+                <p>I don't think stories are restricted to just books or the tabletop. Everyone has a story, but most aren't given the opportunity to tell it. My passion is to help people like myself tell their stories.</p>
+				<br>
+                <p>I've been illustrating since I was a kid. When I was a kid I drew cartoon monsters and created my own comics and characters. I count myself lucky that I haven't lost the love for creating silly drawings.</p>
+            </div>
+            <img class="logo" src="css/images/logo.png" height="100%"></img>
+        </div>
+        
+        <div class="portfolio" id="portfolio">
+			<div class="banner">
+				<div class="banner-left round pad">
+				<div class="overlay">
+						<div class="text">My Story</div>
+					</div>
+				</div>
+				<div class="banner-right round pad">
+				<div class="overlay">
+						<div class="text">Visualized: Religion in the 21st Century</div>
+					</div>
 				</div>
 			</div>
-		
-		<div class="container portfolio">
-			
-			<div class="major">
-				<div class="row">
-					<div class="col banner">Visualized: Religion in the 21st Century</div>
-					<div class="col banner">Selected Works</div>
+			<div class="projects">
+				<div class="projecta round">
+					<div class="overlay">
+					</div>
+				</div>
+				<div class="projectb round">
+				<div class="overlay">
+					</div>
+				</div>
+				<div class="projectc round">
+				<div class="overlay">
+					</div>
+				</div>
+				<div class="projectd round">
+				<div class="overlay">
+					</div>
+				</div>
+				<div class="projecte round">
+				<div class="overlay">
+					</div>
+				</div>
+				<div class="projectf round">
+				<div class="overlay">
+					</div>
+				</div>
+				<div class="projectg round">
+				<div class="overlay">
+					</div>
+				</div>
+				<div class="projecth round">
+				<div class="overlay">
+					</div>
 				</div>
 			</div>
-			
-			<div class="minor">
-				<div class="row">
-					<div class="col square">Project 3</div>
-					<div class="col square">Project 4</div>
-					<div class="col square">Project 5</div>
-					<div class="col square">Project 6</div>
-				</div>
-				<div class="row">
-					<div class="col square">Project 7</div>
-					<div class="col square">Project 8</div>
-					<div class="col square">Project 9</div>
-					<div class="col square">Project 10</div>
+        </div>
+
+        <div class="contact" id="contact">
+			<div class="mail">
+				<p>If you wanna talk about your project or even just chat, send me a message!</p>
+				<div class="email-form">
+					<form action="action_page.php">
+						<label for="fname">Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Who are you?">
+						
+						<label for="subject">Subject</label>
+						<textarea id="subject" name="subject" placeholder="Have something to say? Put it here!" style="height:200px"></textarea>
+						
+						<input type="submit" value="Submit">
+					</form>
 				</div>
 			</div>
-			
-		</div>
-		
-		<div class="container footer">
-			<p>If you wanna talk about your project or even just chat, send me a message!</p>
-			<p>Or check out my social media for more goodness!</p>
-			<div class="row justify-content-center">
-				<a href="https://twitter.com/TheSaltBoy" class="col-1 fa fa-twitter"></a>
-				<a href="https://dribbble.com/TheSaltBoy" class="col-1 fa fa-dribbble"></a>
-				<a href="" class="col-1 fa fa-instagram"></a>
-				<a href="https://thesaltboy.tumblr.com/" class=" col-1 fa fa-tumblr"></a>
+			<div class="social">
+				<p>Or check out my social media for more goodness!</p>
+				<ul>
+					<li><a href="https://dribbble.com/TheSaltBoy" class="fa fa-dribbble"></a></li>
+					<li><a href="https://www.instagram.com/thesaltboy/" class="fa fa-instagram"></a>
+					<li><a href="https://thesaltboy.tumblr.com/" class="fa fa-tumblr"></a></li>
+				</ul>
 			</div>
-		</div>
-	</main>
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-</body>
+  
+    </div>
+    </body>
     
 </html>
