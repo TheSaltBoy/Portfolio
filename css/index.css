@@ -27,11 +27,11 @@ div#container {
 }
 
 .about {
-    display: grid;
+	display: grid;
 	grid-template-columns: 80% 20%;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 50px;
 }
 
 .about>img {
@@ -62,12 +62,37 @@ div#container {
 }
 
 .contact {
+	text-align: center;
 	margin-left: -100px;
 	margin-right: -100px;
 	margin-bottom: -100px;
 	padding: 50px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	padding-top: 0;
+}
+
+.social {
+	margin-top: 30px;
+}
+
+.social>ul {
+	margin-top: 10px;
+}
+
+.social>ul>li {
+	font-size: 1.2em;
+	margin: 10px;
+}
+
+.fa-dribbble:hover {
+	color: #ea4c89;
+}
+
+.fa-instagram:hover {
+	color: #c13584;
+}
+
+.fa-tumblr:hover {
+	color: #35465c;
 }
 
 ul, a {
@@ -178,10 +203,33 @@ li {
 	cursor: pointer;
 }
 
-fa:hover {
+.cooltext {
 	color: 4fcd36;
 }
 
-.cooltext {
-	color: 4fcd36;
+.button {
+	border-radius: 1em;;
+}
+
+@media only screen and (max-width: 800px) {
+	div#container {
+		margin: 5%;
+		padding: 5%;
+	}
+	.about {
+		text-align: center;
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+	.overlay {
+		display: none;
+	}
+	.about>img {
+		visibility: hidden;
+		display: none;
+	}
+	p {
+		font-size: 1em;
+	}
 }
