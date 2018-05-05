@@ -129,7 +129,7 @@ li {
 	margin-right: -100px;
 	background-image: url(images/bubs.svg);
 	background-position: bottom;
-	background-size: contain;
+	background-size: cover;
 }
 
 .banner-left {
