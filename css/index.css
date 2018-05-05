@@ -15,10 +15,15 @@ body {
 
 .navigation{
     text-align: center;
+	margin-bottom: 50px;
 }
 
 .navigation>img {
 	margin-bottom: 50px;
+}
+
+.hover:hover {
+	color: #4fcd36;
 }
 
 div#container {
@@ -34,6 +39,10 @@ div#container {
 	margin-bottom: 50px;
 }
 
+.about-text {
+	padding-top: 10%;
+}
+
 .about>img {
 	max-height: 300px;
 }
@@ -43,6 +52,11 @@ div#container {
 	margin-right: -100px;
 	padding: 50px;
 	background-color: 
+}
+
+.portfolio-text {
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .banner {
@@ -88,7 +102,7 @@ div#container {
 }
 
 .fa-instagram:hover {
-	color: #c13584;
+	color: #5851db;
 }
 
 .fa-tumblr:hover {
@@ -203,12 +217,12 @@ li {
 	cursor: pointer;
 }
 
-.cooltext {
-	color: 4fcd36;
-}
-
 .button {
 	border-radius: 1em;;
+}
+
+.logo {
+	min-height: 300px;
 }
 
 @media only screen and (max-width: 800px) {
